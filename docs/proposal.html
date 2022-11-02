@@ -4,26 +4,26 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Proposal | YOUR TITLE HERE</title>
-  <meta name="description" content="Chapter 2 Proposal | YOUR TITLE HERE" />
+  <title>Chapter 2 Proposal | Movie Ratings Analysis</title>
+  <meta name="description" content="Chapter 2 Proposal | Movie Ratings Analysis" />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Proposal | YOUR TITLE HERE" />
+  <meta property="og:title" content="Chapter 2 Proposal | Movie Ratings Analysis" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Proposal | YOUR TITLE HERE" />
+  <meta name="twitter:title" content="Chapter 2 Proposal | Movie Ratings Analysis" />
   
   
   
 
-<meta name="author" content="YOUR NAMES HERE" />
+<meta name="author" content="Jingyi Feng" />
 
 
-<meta name="date" content="2022-10-22" />
+<meta name="date" content="2022-11-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -69,7 +69,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">SHORT TITLE HERE</a></li>
+<li><a href="./">Movie Anaylsis</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
@@ -98,7 +98,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">YOUR TITLE HERE</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Movie Ratings Analysis</a>
           </h1>
         </div>
 
@@ -110,9 +110,24 @@
 <h1><span class="header-section-number">Chapter 2</span> Proposal<a href="proposal.html#proposal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="research-topic" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Research topic<a href="proposal.html#research-topic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="line-block">      We are interested in the factors that may influence the ratings of a film (e.g. release time, genre, movie duration).</div>
+<div class="line-block">      We guess that if a movie is released during the holiday seasons (e.g., Thanksgiving, Christmas) then the ratings might be higher than those released at other times because people have an elevated mood and hence might tolerate the quality of the movie. Also, depending on the year the movie was released, the audience’s judging criteria would also vary. For old movies, technological lag makes people care more about storytelling. Now, people may judge from more aspects.</div>
+<div class="line-block">      Considering genres, documentary movies may be easier to obtain a high rating. On the one hand, audiences would easily resonate with this type of film which is more related to their real life. On the other hand, audiences will be more tolerant of filmmaking, for example, they won’t expect to see flashy special effects in a documentary movie.</div>
+<div class="line-block">      The movie duration may also influence the ratings. The longer the movie, the easier it is for people to lose their patience. For instance, in a dull movie with a longer running time, people might get bored or even doze off. The audience will question whether the film’s pace drags on too much for a long film. And a short movie usually can’t give a complete background. We wonder if there exists a reasonable duration for movies.</div>
+<div class="line-block">      In addition, we can compare the ratings of movies produced in different regions or production companies. Considering all those factors, we are curious about whether there are certain features that are important for a film to have high ratings. We’ll try to answer this question by analyzing related datasets.</div>
 </div>
 <div id="data-availability" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Data availability<a href="proposal.html#data-availability" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><a href="https://www.imdb.com/interfaces/">IMDb Datasets</a></p>
+<ul>
+<li>Collected by IMDb organization through their users and their user-generated content. Copyright owned by IMDb. We believe IMDb is a reliable source for getting rating information.</li>
+<li>Each dataset is in a gzipped, tsv formatted file in the UTF-8 character set. They can be imported easily by ‘read_tsv’ in the ‘‘readr’ package, which can uncompress automatically for .gz format files. Also, we could import them by using the <a href="https://cran.r-project.org/web/packages/ggplot2movies/index.html">ggplot2movies</a> package in R directly.<br />
+</li>
+<li>The data is refreshed daily.</li>
+<li>We consider using this source because it contains up-to-date movie ratings collected directly from the users. In addition to movie ratings, it also provides information such as the title, length, region, language, release year, genres associated with the title, number of votes, etc. Then we’ll try to visualize the relationship between each factor and ratings. For example, we will compare movies with different genres (e.g., whether documentary movies would generally have higher ratings).</li>
+</ul></li>
+</ul>
 
 </div>
 </div>
@@ -153,7 +168,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/edit/main/proposal.Rmd",
+"link": "https://github.com/jenniferfjy/movie_ratings/edit/main/proposal.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -161,7 +176,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/blob/main/proposal.Rmd",
+"link": "https://github.com/jenniferfjy/movie_ratings/blob/main/proposal.Rmd",
 "text": null
 },
 "download": null,
