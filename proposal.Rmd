@@ -19,10 +19,7 @@
   + Each dataset is in a gzipped, tsv formatted file in the UTF-8 character set. They can be imported easily by ‘read_tsv’ in the ‘‘readr’ package, which can uncompress automatically for .gz format files. Also, we could import them by using the [ggplot2movies](https://cran.r-project.org/web/packages/ggplot2movies/index.html) package in R directly.  
   + The data is refreshed daily. 
   + We consider using this source because it contains up-to-date movie ratings collected directly from the users. In addition to movie ratings, it also provides information such as the title, length, region, language, release year, genres associated with the title, number of votes, etc. Then we’ll try to visualize the relationship between each factor and ratings. For example, we will compare movies with different genres (e.g., whether documentary movies would generally have higher ratings).  
-
-
-
- 
+  
 
 
 
