@@ -9,7 +9,7 @@
 
 |       The movie duration may also influence the ratings. The longer the movie, the easier it is for people to lose their patience. For instance, in a dull movie with a longer running time, people might get bored or even doze off. The audience will question whether the film’s pace drags on too much for a long film. And a short movie usually can’t give a complete background. We wonder if there exists a reasonable duration for movies.
 
-|       In addition, we can compare the ratings of movies produced in different regions or production companies. Considering all those factors, we are curious about that are there certain features that are important for a film to have high ratings. We’ll try to answer this question by analyzing related datasets.
+|       In addition, we can compare the ratings of movies produced in different regions or production companies. Considering all those factors, we are curious about whether there are certain features that are important for a film to have high ratings. We’ll try to answer this question by analyzing related datasets.
 
 ## Data availability
 
