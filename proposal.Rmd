@@ -1,6 +1,16 @@
 # Proposal
 
 ## Research topic
+|       We are interested in the factors that may influence the ratings of a film (e.g. release time, genre, movie duration).
+
+|       We guess that if a movie is released during the holiday seasons (e.g., Thanksgiving, Christmas) then the ratings might be higher than those released at other times because people have an elevated mood and hence might tolerate the quality of the movie. Also, depending on the year the movie was released, the audience’s judging criteria would also vary. For old movies, technological lag makes people care more about storytelling. Now, people may judge from more aspects. 
+
+|       Considering genres, documentary movies may be easier to obtain a high rating. On the one hand, audiences would easily resonate with this type of film which is more related to their real life. On the other hand, audiences will be more tolerant of filmmaking, for example, they won’t expect to see flashy special effects in a documentary movie. 
+
+|       The movie duration may also influence the ratings. The longer the movie, the easier it is for people to lose their patience. For instance, in a dull movie with a longer running time, people might get bored or even doze off. The audience will question whether the film’s pace drags on too much for a long film. And a short movie usually can’t give a complete background. We wonder if there exists a reasonable duration for movies.
+
+|       In addition, we can compare the ratings of movies produced in different regions or production companies. Considering all those factors, we are curious about that are there certain features that are important for a film to have high ratings. We’ll try to answer this question by analyzing related datasets.
 
 ## Data availability
+
 
